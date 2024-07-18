@@ -177,14 +177,41 @@
      .card-box{
       display: grid;
       grid-template-columns:repeat(3, 1fr);
+     }
+     /* join section */
+     .join-image{
+      width: 400px;
+      padding: 20px;
+     }
+     .join-content{
+      width: 610px;
+      padding: 20px;
+     }
+     .join-title{
+      font-size:2.37rem ;
+      font-weight: bold;
+      color: rgba(10, 8, 38, 1);
+     }
+     .join-text{
+      font-size:1.1rem ;
+      font-weight: bold;
+      color: rgba(108, 108, 108, 1);
+     }
+     .btn-join{
+      background-color: rgba(224, 44, 109, 1);
+      color: rgba(255, 255, 255, 1);
      
-      
-    
-      
-   
+      border: none;
+      padding: 15px;
+      font-size: 1rem;
+      font-weight: bold;
+     }
+     .join-section{
+      margin: 80px auto;
 
      }
-     
+
+
 
           
           
