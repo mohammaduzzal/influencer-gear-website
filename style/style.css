@@ -231,20 +231,21 @@
       font-weight: bold;
       color: rgba(217, 219, 225, 1);
      }
-    .social-media{
-      width: 5%;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
+   
+     .footer > img {
+      width:25px;
       gap: 5px;
+
     }
+    
     .footer{
-   background-color: slateblue;
-  
+   background-color: rgba(4, 1, 22, 0.89);
+   width:100%;
+   margin:0 auto;
+   text-align: center;
     }
-    .foot{
-      display: flex;
-      justify-content: center;
-    }
+    
+
       
      
 
