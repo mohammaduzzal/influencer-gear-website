@@ -178,6 +178,15 @@
       display: grid;
       grid-template-columns:repeat(3, 1fr);
      }
+     .see-more{
+      display: flex;
+      justify-content: flex-end; 
+     }
+
+     .under{
+      text-decoration: none;
+      color: red;
+     }
      /* join section */
      .join-image{
       width: 400px;
@@ -210,6 +219,34 @@
       margin: 80px auto;
 
      }
+     /* footer style */
+     .footer-title{
+      font-size:1.5rem ;
+      font-weight: bold;
+      color: rgba(255, 255, 255, 1);
+
+     }
+     .copyright{
+      font-size:.87rem ;
+      font-weight: bold;
+      color: rgba(217, 219, 225, 1);
+     }
+    .social-media{
+      width: 5%;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 5px;
+    }
+    .footer{
+   background-color: slateblue;
+  
+    }
+    .foot{
+      display: flex;
+      justify-content: center;
+    }
+      
+     
 
 
 
